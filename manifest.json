@@ -1,0 +1,22 @@
+{
+  "name": "Surely",
+  "version": "1.0",
+  "description": "A humble extension",
+  "manifest_version": 2,
+  "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["content.js"]
+  }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage"],
+  "browser_action": {
+  "default_icon": "Dwennimmen.webp"
+  }
+}
