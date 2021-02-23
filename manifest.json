@@ -15,6 +15,7 @@
     "scripts": ["background.js"],
     "persistent": false
   },
+  "permissions": ["storage"],
   "browser_action": {
   "default_icon": "Dwennimmen.webp"
   }
