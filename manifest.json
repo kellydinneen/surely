@@ -11,6 +11,10 @@
     "js": ["content.js"]
   }
   ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "browser_action": {
   "default_icon": "Dwennimmen.webp"
   }
